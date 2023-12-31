@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #a5f3fc;
+    width: 440px;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+  
+  .header h2 {
+    font-size: 2.3rem;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: rgb(217, 217, 217);
+    text-align: center;
+    color: grey;
+    padding: 10px 0;
+    margin-top: 30px;
+  }
+  
+  .container {
+    min-height: 100vh;
+  }
+  
+  @media (max-width: 600px) {
+    .header {
+      width: 100%;
+      margin: 0 auto 10px;
+    }
+  }
+
+  
